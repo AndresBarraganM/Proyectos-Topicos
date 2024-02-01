@@ -40,7 +40,7 @@ def PG_App(length: int, symbols: bool, uppercase: bool, quantity: int):
     # Deshabilitar la escritura en el Text widget
     textarea.configure(state=tk.DISABLED)
 
-    derechos = "ITE"
+    derechos = ":D"
     label_derechos = CTkLabel(
         ventana, bg_color=c_negro, text=derechos, font=("Arial", 12))
     label_derechos.grid(row=2, columnspan=2, padx=0, pady=10)
@@ -107,7 +107,7 @@ def main():
 	                                                 quantity=int(cantidad.get().strip())))
 	bt_gen.grid(columnspan=2, row=4, padx=4, pady=18)
 
-	derechos = "ITE"
+	derechos = ":D"
 	label_derechos = CTkLabel(frame, text=derechos, font=("Arial", 12))
 	label_derechos.grid(row=5, columnspan=2, padx=0, pady=5)
 
